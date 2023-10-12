@@ -1,11 +1,11 @@
 const word = 'Greetings'
 
-// function reverseString(string){
+function reverseString(string){
 
-//     return string.split('').reverse().join('')
-// } 
+    return string.split('').reverse().join('')
+} 
 
-// console.log(reverseString(word))
+console.log(reverseString(word))
 
 function reverseString2(string){
     let reversed = ''
@@ -28,7 +28,3 @@ function reverseString3(string){
 }
 
 console.log(reverseString3(word))
-
-
-// const experiment = 'string' += 'h'
-// console.log(experiment)
